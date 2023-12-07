@@ -10,7 +10,10 @@ Quick start
 Installation
 ============
 
-    $ conda install -c conda-forge pysteps
+This repository uses the R front end [ExeterUQ_MOGP](https://github.com/BayesExeter/ExeterUQ_MOGP) for [mogp_emulator](https://github.com/alan-turing-institute/mogp_emulator
+) (released in Python). You do need to clone both repository,(pay attention to install the V5.0 of moqp_emulator).
+
+    $ conda install -c conda-forge HM
 
 This repository acts as an R front end for mogp_emulator (released in Python), which is available here: https://github.com/alan-turing-institute/mogp_emulator
 
