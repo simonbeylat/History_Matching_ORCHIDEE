@@ -24,14 +24,14 @@ To launch a Wave of Histrory Matching please run the flowing line:
     $ Rscript R/HistoryMatching.R /$Ablosulte_path$/Data/$Directory_name$/ 
 
 The info.csv file provides options for the R script: 
-l4 Wave number 
-l5 Sample size to be generated with emulatore 
-l6 cut-off
-l7 tau
-l8 option to use previous sample
-l9 option to create a new design for the next wave (to be used when NROY is too small) 
-l10 option to keep good point in order to have a more real simulation point for the next wave
-l11 keep good point only on the border (must activate l10 to use this option) 
++ l4 Wave number 
++ l5 Sample size to be generated with emulatore 
++ l6 cut-off
++ l7 tau
++ l8 option to use previous sample
++ l9 option to create a new design for the next wave (to be used when NROY is too small) 
++ l10 option to keep good point in order to have a more real simulation point for the next wave
++ l11 keep good point only on the border (must activate l10 to use this option) 
 
 Reference publications
 ======================
@@ -39,3 +39,4 @@ Reference publications
 Contributors
 ============
 Simon Beylat, Nina Raoult 
+This scipte is an adaptation of the scripte used in [HighTune](https://svn.lmd.jussieu.fr/HighTune/) available on svn
