@@ -2,21 +2,17 @@ History_Matching_ORCHIDEE
 =========================
 An application of History Matching in ORCHIDEE Land Surface Model
 
-
-
-Quick start
------------
-
 Installation
 ============
 
-This repository uses the R front end [ExeterUQ_MOGP](https://github.com/BayesExeter/ExeterUQ_MOGP) for [mogp_emulator](https://github.com/alan-turing-institute/mogp_emulator
-) (released in Python). You do need to clone both repository,(pay attention to install the V5.0 of moqp_emulator).
+This repository uses the R front end [ExeterUQ_MOGP](https://github.com/BayesExeter/ExeterUQ_MOGP) for [mogp_emulator](https://github.com/alan-turing-institute/mogp_emulator) (released in Python).  You need to install both repositories, (be sure to install moqp_emulator V0.5).
 
-    $ conda install -c conda-forge HM
+We recommend that you install and use the conda environment provided in this repository. 
 
-This repository acts as an R front end for mogp_emulator (released in Python), which is available here: https://github.com/alan-turing-institute/mogp_emulator
+    $ conda install -c conda-forge --name HM --file requirements.txt 
+    $ conda activate HM
 
+    
 Usage
 =====
 
