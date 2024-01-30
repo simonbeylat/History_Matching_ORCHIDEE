@@ -8,7 +8,7 @@ if (length(args)==0) {
   path_out <- args[1]
 }
 library(reticulate)
-Sys.setenv(RETICULATE_PYTHON = "/home/users/sbeylat/.conda/envs/HM/bin/python")
+#Sys.setenv(RETICULATE_PYTHON = "/path_of_python") # not required
 use_condaenv(condaenv='HM')
 
 
