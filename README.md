@@ -39,7 +39,7 @@ The info.csv file provides options for the R script:
 
 Reference publications
 ======================
-'Exploring the Potential of History Matching for Land Surface Model Calibration' Raoult et al. 2023 DOI : _The code used for this article is [HighTune](https://svn.lmd.jussieu.fr/HighTune/) We then recode the R script to adapt it for further studies._
+'Exploring the Potential of History Matching for Land Surface Model Calibration' Raoult et al. 2023 DOI :[![DOI](http://dx.doi.org/10.5194/egusphere-2023-2996) _The code used for this article is [HighTune](https://svn.lmd.jussieu.fr/HighTune/) We then recode the R script to adapt it for further studies._
   
 Contributors
 ============
