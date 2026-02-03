@@ -17,7 +17,18 @@ We recommend that you install and use the conda environment provided in this rep
     $ conda activate HM
 
 Please provide the path of mopg_emulator and ExeterUQ_MOGP on lines 2 and 3 of the info.csv file in the data directory.  
-    
+
+Docker
+======
+It is possible to use a Docker container to run the R script. The container will automatically install all the required packages. To do this, simply execute the following commands:
+
+    $ ./install_docker.sh
+    $ ./run.sh $Directory_name$/
+
+Example:
+
+    $ ./run.sh Raoult2024/RMSD/
+
 Usage
 =====
 
